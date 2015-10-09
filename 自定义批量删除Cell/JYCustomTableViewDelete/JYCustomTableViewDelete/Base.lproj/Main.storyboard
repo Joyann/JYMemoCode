@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mvU-Ep-XdH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KtK-hU-007">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Bpm-7I-FVl"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="iR1-9n-hA0"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KtK-hU-007" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BC1-fU-m43"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KtK-hU-007" secondAttribute="bottom" id="rFs-uq-dX9"/>
+                            <constraint firstItem="KtK-hU-007" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="s0X-os-HuC"/>
+                            <constraint firstAttribute="trailing" secondItem="KtK-hU-007" secondAttribute="trailing" id="v6M-KP-2lx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cb2-af-LVs">
+                        <barButtonItem key="rightBarButtonItem" title="删除选中的Cell" id="Mqb-Db-xPh">
+                            <connections>
+                                <action selector="deleteAllSelected:" destination="BYZ-38-t0r" id="shO-qj-I5D"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="KtK-hU-007" id="K9c-bI-Q5a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="292"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9H6-53-a9z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mvU-Ep-XdH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9fP-zp-Ici">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XUw-Np-Cfg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pq6-Xl-MAU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="292"/>
+        </scene>
+    </scenes>
+</document>

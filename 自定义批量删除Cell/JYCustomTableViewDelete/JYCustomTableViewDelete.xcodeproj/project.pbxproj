@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627FBB951BC68F7300ECF083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBB941BC68F7300ECF083 /* main.m */; };
+		627FBB981BC68F7300ECF083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBB971BC68F7300ECF083 /* AppDelegate.m */; };
+		627FBB9B1BC68F7300ECF083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBB9A1BC68F7300ECF083 /* ViewController.m */; };
+		627FBB9E1BC68F7300ECF083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627FBB9C1BC68F7300ECF083 /* Main.storyboard */; };
+		627FBBA01BC68F7300ECF083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627FBB9F1BC68F7300ECF083 /* Assets.xcassets */; };
+		627FBBA31BC68F7300ECF083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627FBBA11BC68F7300ECF083 /* LaunchScreen.storyboard */; };
+		627FBBAE1BC68F7300ECF083 /* JYCustomTableViewDeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBAD1BC68F7300ECF083 /* JYCustomTableViewDeleteTests.m */; };
+		627FBBB91BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBB81BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.m */; };
+		627FBBC71BC68F9800ECF083 /* wine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 627FBBC61BC68F9800ECF083 /* wine.plist */; settings = {ASSET_TAGS = (); }; };
+		627FBBE01BC68FA100ECF083 /* MJDictionaryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBCA1BC68FA100ECF083 /* MJDictionaryCache.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE11BC68FA100ECF083 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBCD1BC68FA100ECF083 /* MJExtensionConst.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE21BC68FA100ECF083 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBCF1BC68FA100ECF083 /* MJFoundation.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE31BC68FA100ECF083 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBD11BC68FA100ECF083 /* MJProperty.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE41BC68FA100ECF083 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBD31BC68FA100ECF083 /* MJPropertyKey.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE51BC68FA100ECF083 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBD51BC68FA100ECF083 /* MJPropertyType.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE61BC68FA100ECF083 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBD71BC68FA100ECF083 /* NSObject+MJClass.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE71BC68FA100ECF083 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBD91BC68FA100ECF083 /* NSObject+MJCoding.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE81BC68FA100ECF083 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBDB1BC68FA100ECF083 /* NSObject+MJKeyValue.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBE91BC68FA100ECF083 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBDD1BC68FA100ECF083 /* NSObject+MJProperty.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBEA1BC68FA100ECF083 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBDF1BC68FA100ECF083 /* NSString+MJExtension.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBED1BC691E000ECF083 /* JYWine.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBEC1BC691E000ECF083 /* JYWine.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBF11BC692BC00ECF083 /* JYWineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 627FBBEF1BC692BC00ECF083 /* JYWineCell.m */; settings = {ASSET_TAGS = (); }; };
+		627FBBF21BC692BC00ECF083 /* JYWineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 627FBBF01BC692BC00ECF083 /* JYWineCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		627FBBAA1BC68F7300ECF083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627FBB881BC68F7300ECF083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627FBB8F1BC68F7300ECF083;
+			remoteInfo = JYCustomTableViewDelete;
+		};
+		627FBBB51BC68F7300ECF083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627FBB881BC68F7300ECF083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627FBB8F1BC68F7300ECF083;
+			remoteInfo = JYCustomTableViewDelete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		627FBB901BC68F7300ECF083 /* JYCustomTableViewDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYCustomTableViewDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		627FBB941BC68F7300ECF083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		627FBB961BC68F7300ECF083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		627FBB971BC68F7300ECF083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		627FBB991BC68F7300ECF083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		627FBB9A1BC68F7300ECF083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		627FBB9D1BC68F7300ECF083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		627FBB9F1BC68F7300ECF083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		627FBBA21BC68F7300ECF083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		627FBBA41BC68F7300ECF083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627FBBA91BC68F7300ECF083 /* JYCustomTableViewDeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYCustomTableViewDeleteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		627FBBAD1BC68F7300ECF083 /* JYCustomTableViewDeleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCustomTableViewDeleteTests.m; sourceTree = "<group>"; };
+		627FBBAF1BC68F7300ECF083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627FBBB41BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYCustomTableViewDeleteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		627FBBB81BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYCustomTableViewDeleteUITests.m; sourceTree = "<group>"; };
+		627FBBBA1BC68F7300ECF083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627FBBC61BC68F9800ECF083 /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wine.plist; sourceTree = "<group>"; };
+		627FBBC91BC68FA100ECF083 /* MJDictionaryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDictionaryCache.h; sourceTree = "<group>"; };
+		627FBBCA1BC68FA100ECF083 /* MJDictionaryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDictionaryCache.m; sourceTree = "<group>"; };
+		627FBBCB1BC68FA100ECF083 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		627FBBCC1BC68FA100ECF083 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		627FBBCD1BC68FA100ECF083 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		627FBBCE1BC68FA100ECF083 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		627FBBCF1BC68FA100ECF083 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		627FBBD01BC68FA100ECF083 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		627FBBD11BC68FA100ECF083 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		627FBBD21BC68FA100ECF083 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		627FBBD31BC68FA100ECF083 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		627FBBD41BC68FA100ECF083 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		627FBBD51BC68FA100ECF083 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		627FBBD61BC68FA100ECF083 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		627FBBD71BC68FA100ECF083 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		627FBBD81BC68FA100ECF083 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		627FBBD91BC68FA100ECF083 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		627FBBDA1BC68FA100ECF083 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		627FBBDB1BC68FA100ECF083 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		627FBBDC1BC68FA100ECF083 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		627FBBDD1BC68FA100ECF083 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		627FBBDE1BC68FA100ECF083 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		627FBBDF1BC68FA100ECF083 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		627FBBEB1BC691E000ECF083 /* JYWine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWine.h; sourceTree = "<group>"; };
+		627FBBEC1BC691E000ECF083 /* JYWine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWine.m; sourceTree = "<group>"; };
+		627FBBEE1BC692BC00ECF083 /* JYWineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWineCell.h; sourceTree = "<group>"; };
+		627FBBEF1BC692BC00ECF083 /* JYWineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWineCell.m; sourceTree = "<group>"; };
+		627FBBF01BC692BC00ECF083 /* JYWineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYWineCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627FBB8D1BC68F7300ECF083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FBBA61BC68F7300ECF083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FBBB11BC68F7300ECF083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		627FBB871BC68F7300ECF083 = {
+			isa = PBXGroup;
+			children = (
+				627FBB921BC68F7300ECF083 /* JYCustomTableViewDelete */,
+				627FBBAC1BC68F7300ECF083 /* JYCustomTableViewDeleteTests */,
+				627FBBB71BC68F7300ECF083 /* JYCustomTableViewDeleteUITests */,
+				627FBB911BC68F7300ECF083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		627FBB911BC68F7300ECF083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627FBB901BC68F7300ECF083 /* JYCustomTableViewDelete.app */,
+				627FBBA91BC68F7300ECF083 /* JYCustomTableViewDeleteTests.xctest */,
+				627FBBB41BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627FBB921BC68F7300ECF083 /* JYCustomTableViewDelete */ = {
+			isa = PBXGroup;
+			children = (
+				627FBBC81BC68FA100ECF083 /* MJExtension */,
+				627FBBC61BC68F9800ECF083 /* wine.plist */,
+				627FBB961BC68F7300ECF083 /* AppDelegate.h */,
+				627FBB971BC68F7300ECF083 /* AppDelegate.m */,
+				627FBB991BC68F7300ECF083 /* ViewController.h */,
+				627FBB9A1BC68F7300ECF083 /* ViewController.m */,
+				627FBB9C1BC68F7300ECF083 /* Main.storyboard */,
+				627FBB9F1BC68F7300ECF083 /* Assets.xcassets */,
+				627FBBA11BC68F7300ECF083 /* LaunchScreen.storyboard */,
+				627FBBA41BC68F7300ECF083 /* Info.plist */,
+				627FBB931BC68F7300ECF083 /* Supporting Files */,
+				627FBBEB1BC691E000ECF083 /* JYWine.h */,
+				627FBBEC1BC691E000ECF083 /* JYWine.m */,
+				627FBBEE1BC692BC00ECF083 /* JYWineCell.h */,
+				627FBBEF1BC692BC00ECF083 /* JYWineCell.m */,
+				627FBBF01BC692BC00ECF083 /* JYWineCell.xib */,
+			);
+			path = JYCustomTableViewDelete;
+			sourceTree = "<group>";
+		};
+		627FBB931BC68F7300ECF083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				627FBB941BC68F7300ECF083 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		627FBBAC1BC68F7300ECF083 /* JYCustomTableViewDeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				627FBBAD1BC68F7300ECF083 /* JYCustomTableViewDeleteTests.m */,
+				627FBBAF1BC68F7300ECF083 /* Info.plist */,
+			);
+			path = JYCustomTableViewDeleteTests;
+			sourceTree = "<group>";
+		};
+		627FBBB71BC68F7300ECF083 /* JYCustomTableViewDeleteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				627FBBB81BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.m */,
+				627FBBBA1BC68F7300ECF083 /* Info.plist */,
+			);
+			path = JYCustomTableViewDeleteUITests;
+			sourceTree = "<group>";
+		};
+		627FBBC81BC68FA100ECF083 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				627FBBC91BC68FA100ECF083 /* MJDictionaryCache.h */,
+				627FBBCA1BC68FA100ECF083 /* MJDictionaryCache.m */,
+				627FBBCB1BC68FA100ECF083 /* MJExtension.h */,
+				627FBBCC1BC68FA100ECF083 /* MJExtensionConst.h */,
+				627FBBCD1BC68FA100ECF083 /* MJExtensionConst.m */,
+				627FBBCE1BC68FA100ECF083 /* MJFoundation.h */,
+				627FBBCF1BC68FA100ECF083 /* MJFoundation.m */,
+				627FBBD01BC68FA100ECF083 /* MJProperty.h */,
+				627FBBD11BC68FA100ECF083 /* MJProperty.m */,
+				627FBBD21BC68FA100ECF083 /* MJPropertyKey.h */,
+				627FBBD31BC68FA100ECF083 /* MJPropertyKey.m */,
+				627FBBD41BC68FA100ECF083 /* MJPropertyType.h */,
+				627FBBD51BC68FA100ECF083 /* MJPropertyType.m */,
+				627FBBD61BC68FA100ECF083 /* NSObject+MJClass.h */,
+				627FBBD71BC68FA100ECF083 /* NSObject+MJClass.m */,
+				627FBBD81BC68FA100ECF083 /* NSObject+MJCoding.h */,
+				627FBBD91BC68FA100ECF083 /* NSObject+MJCoding.m */,
+				627FBBDA1BC68FA100ECF083 /* NSObject+MJKeyValue.h */,
+				627FBBDB1BC68FA100ECF083 /* NSObject+MJKeyValue.m */,
+				627FBBDC1BC68FA100ECF083 /* NSObject+MJProperty.h */,
+				627FBBDD1BC68FA100ECF083 /* NSObject+MJProperty.m */,
+				627FBBDE1BC68FA100ECF083 /* NSString+MJExtension.h */,
+				627FBBDF1BC68FA100ECF083 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		627FBB8F1BC68F7300ECF083 /* JYCustomTableViewDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627FBBBD1BC68F7300ECF083 /* Build configuration list for PBXNativeTarget "JYCustomTableViewDelete" */;
+			buildPhases = (
+				627FBB8C1BC68F7300ECF083 /* Sources */,
+				627FBB8D1BC68F7300ECF083 /* Frameworks */,
+				627FBB8E1BC68F7300ECF083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYCustomTableViewDelete;
+			productName = JYCustomTableViewDelete;
+			productReference = 627FBB901BC68F7300ECF083 /* JYCustomTableViewDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		627FBBA81BC68F7300ECF083 /* JYCustomTableViewDeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627FBBC01BC68F7300ECF083 /* Build configuration list for PBXNativeTarget "JYCustomTableViewDeleteTests" */;
+			buildPhases = (
+				627FBBA51BC68F7300ECF083 /* Sources */,
+				627FBBA61BC68F7300ECF083 /* Frameworks */,
+				627FBBA71BC68F7300ECF083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627FBBAB1BC68F7300ECF083 /* PBXTargetDependency */,
+			);
+			name = JYCustomTableViewDeleteTests;
+			productName = JYCustomTableViewDeleteTests;
+			productReference = 627FBBA91BC68F7300ECF083 /* JYCustomTableViewDeleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		627FBBB31BC68F7300ECF083 /* JYCustomTableViewDeleteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627FBBC31BC68F7300ECF083 /* Build configuration list for PBXNativeTarget "JYCustomTableViewDeleteUITests" */;
+			buildPhases = (
+				627FBBB01BC68F7300ECF083 /* Sources */,
+				627FBBB11BC68F7300ECF083 /* Frameworks */,
+				627FBBB21BC68F7300ECF083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627FBBB61BC68F7300ECF083 /* PBXTargetDependency */,
+			);
+			name = JYCustomTableViewDeleteUITests;
+			productName = JYCustomTableViewDeleteUITests;
+			productReference = 627FBBB41BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627FBB881BC68F7300ECF083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					627FBB8F1BC68F7300ECF083 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					627FBBA81BC68F7300ECF083 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 627FBB8F1BC68F7300ECF083;
+					};
+					627FBBB31BC68F7300ECF083 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 627FBB8F1BC68F7300ECF083;
+					};
+				};
+			};
+			buildConfigurationList = 627FBB8B1BC68F7300ECF083 /* Build configuration list for PBXProject "JYCustomTableViewDelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 627FBB871BC68F7300ECF083;
+			productRefGroup = 627FBB911BC68F7300ECF083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627FBB8F1BC68F7300ECF083 /* JYCustomTableViewDelete */,
+				627FBBA81BC68F7300ECF083 /* JYCustomTableViewDeleteTests */,
+				627FBBB31BC68F7300ECF083 /* JYCustomTableViewDeleteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627FBB8E1BC68F7300ECF083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627FBBA31BC68F7300ECF083 /* LaunchScreen.storyboard in Resources */,
+				627FBBA01BC68F7300ECF083 /* Assets.xcassets in Resources */,
+				627FBBF21BC692BC00ECF083 /* JYWineCell.xib in Resources */,
+				627FBB9E1BC68F7300ECF083 /* Main.storyboard in Resources */,
+				627FBBC71BC68F9800ECF083 /* wine.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FBBA71BC68F7300ECF083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FBBB21BC68F7300ECF083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627FBB8C1BC68F7300ECF083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627FBBE51BC68FA100ECF083 /* MJPropertyType.m in Sources */,
+				627FBB9B1BC68F7300ECF083 /* ViewController.m in Sources */,
+				627FBBE11BC68FA100ECF083 /* MJExtensionConst.m in Sources */,
+				627FBBE61BC68FA100ECF083 /* NSObject+MJClass.m in Sources */,
+				627FBBE91BC68FA100ECF083 /* NSObject+MJProperty.m in Sources */,
+				627FBBE81BC68FA100ECF083 /* NSObject+MJKeyValue.m in Sources */,
+				627FBBE31BC68FA100ECF083 /* MJProperty.m in Sources */,
+				627FBB981BC68F7300ECF083 /* AppDelegate.m in Sources */,
+				627FBBE71BC68FA100ECF083 /* NSObject+MJCoding.m in Sources */,
+				627FBBE21BC68FA100ECF083 /* MJFoundation.m in Sources */,
+				627FBBEA1BC68FA100ECF083 /* NSString+MJExtension.m in Sources */,
+				627FBB951BC68F7300ECF083 /* main.m in Sources */,
+				627FBBE01BC68FA100ECF083 /* MJDictionaryCache.m in Sources */,
+				627FBBF11BC692BC00ECF083 /* JYWineCell.m in Sources */,
+				627FBBE41BC68FA100ECF083 /* MJPropertyKey.m in Sources */,
+				627FBBED1BC691E000ECF083 /* JYWine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FBBA51BC68F7300ECF083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627FBBAE1BC68F7300ECF083 /* JYCustomTableViewDeleteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627FBBB01BC68F7300ECF083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627FBBB91BC68F7300ECF083 /* JYCustomTableViewDeleteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		627FBBAB1BC68F7300ECF083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627FBB8F1BC68F7300ECF083 /* JYCustomTableViewDelete */;
+			targetProxy = 627FBBAA1BC68F7300ECF083 /* PBXContainerItemProxy */;
+		};
+		627FBBB61BC68F7300ECF083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627FBB8F1BC68F7300ECF083 /* JYCustomTableViewDelete */;
+			targetProxy = 627FBBB51BC68F7300ECF083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		627FBB9C1BC68F7300ECF083 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627FBB9D1BC68F7300ECF083 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		627FBBA11BC68F7300ECF083 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627FBBA21BC68F7300ECF083 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		627FBBBB1BC68F7300ECF083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		627FBBBC1BC68F7300ECF083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627FBBBE1BC68F7300ECF083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYCustomTableViewDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYCustomTableViewDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		627FBBBF1BC68F7300ECF083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYCustomTableViewDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYCustomTableViewDelete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		627FBBC11BC68F7300ECF083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYCustomTableViewDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYCustomTableViewDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYCustomTableViewDelete.app/JYCustomTableViewDelete";
+			};
+			name = Debug;
+		};
+		627FBBC21BC68F7300ECF083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYCustomTableViewDeleteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYCustomTableViewDeleteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYCustomTableViewDelete.app/JYCustomTableViewDelete";
+			};
+			name = Release;
+		};
+		627FBBC41BC68F7300ECF083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYCustomTableViewDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYCustomTableViewDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYCustomTableViewDelete;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		627FBBC51BC68F7300ECF083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYCustomTableViewDeleteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYCustomTableViewDeleteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYCustomTableViewDelete;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627FBB8B1BC68F7300ECF083 /* Build configuration list for PBXProject "JYCustomTableViewDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627FBBBB1BC68F7300ECF083 /* Debug */,
+				627FBBBC1BC68F7300ECF083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627FBBBD1BC68F7300ECF083 /* Build configuration list for PBXNativeTarget "JYCustomTableViewDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627FBBBE1BC68F7300ECF083 /* Debug */,
+				627FBBBF1BC68F7300ECF083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		627FBBC01BC68F7300ECF083 /* Build configuration list for PBXNativeTarget "JYCustomTableViewDeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627FBBC11BC68F7300ECF083 /* Debug */,
+				627FBBC21BC68F7300ECF083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		627FBBC31BC68F7300ECF083 /* Build configuration list for PBXNativeTarget "JYCustomTableViewDeleteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627FBBC41BC68F7300ECF083 /* Debug */,
+				627FBBC51BC68F7300ECF083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627FBB881BC68F7300ECF083 /* Project object */;
+}

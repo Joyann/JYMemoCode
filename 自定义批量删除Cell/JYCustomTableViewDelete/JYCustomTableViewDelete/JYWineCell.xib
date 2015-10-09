@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="JYWineCellIdentifier" rowHeight="80" id="KGk-i7-Jjw" customClass="JYWineCell">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7aP-RB-hpr">
+                        <rect key="frame" x="8" y="8" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="k7q-No-lJo"/>
+                            <constraint firstAttribute="height" constant="60" id="yQs-KQ-lwR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SaI-9K-07K">
+                        <rect key="frame" x="76" y="8" width="202" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jt-Yo-TYk">
+                        <rect key="frame" x="76" y="51" width="202" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="Jkm-7p-hz3">
+                        <rect key="frame" x="286" y="28" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="0ly-dz-vwr"/>
+                            <constraint firstAttribute="width" constant="24" id="MXc-5i-fwG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7aP-RB-hpr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="584-KI-1Ih"/>
+                    <constraint firstItem="Jkm-7p-hz3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7lQ-fH-hEn"/>
+                    <constraint firstItem="Jkm-7p-hz3" firstAttribute="leading" secondItem="SaI-9K-07K" secondAttribute="trailing" constant="8" id="9LE-Mr-bMz"/>
+                    <constraint firstItem="Jkm-7p-hz3" firstAttribute="leading" secondItem="2jt-Yo-TYk" secondAttribute="trailing" constant="8" id="9MS-Z5-bhN"/>
+                    <constraint firstItem="2jt-Yo-TYk" firstAttribute="bottom" secondItem="7aP-RB-hpr" secondAttribute="bottom" id="Ayc-mL-k13"/>
+                    <constraint firstItem="SaI-9K-07K" firstAttribute="leading" secondItem="7aP-RB-hpr" secondAttribute="trailing" constant="8" id="HBV-4V-edK"/>
+                    <constraint firstAttribute="trailing" secondItem="Jkm-7p-hz3" secondAttribute="trailing" constant="8" id="Kwv-Vr-8Ea"/>
+                    <constraint firstItem="2jt-Yo-TYk" firstAttribute="leading" secondItem="SaI-9K-07K" secondAttribute="leading" id="TK1-rb-aJv"/>
+                    <constraint firstItem="7aP-RB-hpr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="VFQ-QV-hUb"/>
+                    <constraint firstItem="SaI-9K-07K" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="gpb-BY-eYk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="wineCheckedImageView" destination="Jkm-7p-hz3" id="KZb-ai-A5o"/>
+                <outlet property="wineImageView" destination="7aP-RB-hpr" id="sfH-n0-ZVC"/>
+                <outlet property="wineMoneyLabel" destination="2jt-Yo-TYk" id="Igb-iS-ylD"/>
+                <outlet property="wineNameLabel" destination="SaI-9K-07K" id="Zop-Vo-r9v"/>
+            </connections>
+            <point key="canvasLocation" x="482" y="344"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check" width="24" height="24"/>
+    </resources>
+</document>
