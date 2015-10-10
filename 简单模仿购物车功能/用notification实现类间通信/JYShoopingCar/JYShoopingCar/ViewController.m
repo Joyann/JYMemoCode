@@ -53,6 +53,11 @@ static NSString * const JYWineCellIdentifier = @"JYWineCellIdentifier";
 
 #pragma mark - view controller cycle
 
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
