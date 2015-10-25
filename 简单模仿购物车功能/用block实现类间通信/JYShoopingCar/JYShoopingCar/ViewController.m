@@ -55,7 +55,7 @@ static NSString * const JYWineCellIdentifier = @"JYWineCellIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     self.tableView.rowHeight = 80.0;
 }
 
@@ -116,6 +116,7 @@ static NSString * const JYWineCellIdentifier = @"JYWineCellIdentifier";
     
     // 设置block
     // 在添加/移除按钮点击后会回调这个block.
+    
     cell.wineCellDidSelected = ^(NSInteger oldValue, NSInteger newValue, JYWine *wine) {
         if (newValue > oldValue) { // 点击的是添加按钮
             self.sumPriceLabel.text = [NSString stringWithFormat:@"%ld", self.sumPriceLabel.text.integerValue + wine.money.integerValue];

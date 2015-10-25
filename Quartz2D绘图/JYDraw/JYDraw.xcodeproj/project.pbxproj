@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6231BDDF1BD5C9DA00523FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BDDE1BD5C9DA00523FDF /* main.m */; };
+		6231BDE21BD5C9DA00523FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BDE11BD5C9DA00523FDF /* AppDelegate.m */; };
+		6231BDE51BD5C9DA00523FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BDE41BD5C9DA00523FDF /* ViewController.m */; };
+		6231BDE81BD5C9DA00523FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6231BDE61BD5C9DA00523FDF /* Main.storyboard */; };
+		6231BDEA1BD5C9DA00523FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6231BDE91BD5C9DA00523FDF /* Assets.xcassets */; };
+		6231BDED1BD5C9DA00523FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6231BDEB1BD5C9DA00523FDF /* LaunchScreen.storyboard */; };
+		6231BDF81BD5C9DA00523FDF /* JYDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BDF71BD5C9DA00523FDF /* JYDrawTests.m */; };
+		6231BE031BD5C9DA00523FDF /* JYDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE021BD5C9DA00523FDF /* JYDrawUITests.m */; };
+		6231BE121BD5CA0A00523FDF /* JYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE111BD5CA0A00523FDF /* JYDrawView.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE2F1BD5DAEA00523FDF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE161BD5DAEA00523FDF /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE301BD5DAEA00523FDF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE191BD5DAEA00523FDF /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE311BD5DAEA00523FDF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE1B1BD5DAEA00523FDF /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE321BD5DAEA00523FDF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE1D1BD5DAEA00523FDF /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE331BD5DAEA00523FDF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE211BD5DAEA00523FDF /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE341BD5DAEA00523FDF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE231BD5DAEA00523FDF /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE351BD5DAEA00523FDF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE251BD5DAEA00523FDF /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE361BD5DAEA00523FDF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE281BD5DAEA00523FDF /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE371BD5DAEA00523FDF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE2A1BD5DAEA00523FDF /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE381BD5DAEA00523FDF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE2D1BD5DAEA00523FDF /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE3B1BD5DD1F00523FDF /* JYDrawCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE3A1BD5DD1F00523FDF /* JYDrawCircleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE3F1BD5E14800523FDF /* JYPieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE3E1BD5E14800523FDF /* JYPieViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE421BD5E15700523FDF /* JYPiewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE411BD5E15700523FDF /* JYPiewView.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE451BD60B1A00523FDF /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE441BD60B1A00523FDF /* UIColor+RandomColor.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE491BD60FE000523FDF /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE481BD60FE000523FDF /* SnowViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6231BE4C1BD60FF300523FDF /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6231BE4B1BD60FF300523FDF /* SnowView.m */; settings = {ASSET_TAGS = (); }; };
+		624F064B1BD6238200E232CE /* JYSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F064A1BD6238200E232CE /* JYSnowViewController.m */; settings = {ASSET_TAGS = (); }; };
+		624F064E1BD6239400E232CE /* JYSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F064D1BD6239400E232CE /* JYSnowView.m */; settings = {ASSET_TAGS = (); }; };
+		624F06511BD62A1100E232CE /* JYSnow.m in Sources */ = {isa = PBXBuildFile; fileRef = 624F06501BD62A1100E232CE /* JYSnow.m */; settings = {ASSET_TAGS = (); }; };
+		62835EAA1BD9B88400C59077 /* JYWaterMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62835EA91BD9B88400C59077 /* JYWaterMarkViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62835EAE1BDA022000C59077 /* JYCirclePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62835EAD1BDA022000C59077 /* JYCirclePhotoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62835EB21BDA07C500C59077 /* JYCirclePathWithBorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62835EB11BDA07C500C59077 /* JYCirclePathWithBorderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62835EF51BDA4A0F00C59077 /* JYClipScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62835EF41BDA4A0F00C59077 /* JYClipScreenViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62835EF91BDA4E3B00C59077 /* JYSelectClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62835EF81BDA4E3B00C59077 /* JYSelectClipViewController.m */; settings = {ASSET_TAGS = (); }; };
+		62835EFD1BDA5DE400C59077 /* JYClearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62835EFC1BDA5DE400C59077 /* JYClearViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6231BDF41BD5C9DA00523FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6231BDD21BD5C9DA00523FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6231BDD91BD5C9DA00523FDF;
+			remoteInfo = JYDraw;
+		};
+		6231BDFF1BD5C9DA00523FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6231BDD21BD5C9DA00523FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6231BDD91BD5C9DA00523FDF;
+			remoteInfo = JYDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6231BDDA1BD5C9DA00523FDF /* JYDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6231BDDE1BD5C9DA00523FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6231BDE01BD5C9DA00523FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6231BDE11BD5C9DA00523FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6231BDE31BD5C9DA00523FDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6231BDE41BD5C9DA00523FDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6231BDE71BD5C9DA00523FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6231BDE91BD5C9DA00523FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6231BDEC1BD5C9DA00523FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6231BDEE1BD5C9DA00523FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6231BDF31BD5C9DA00523FDF /* JYDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6231BDF71BD5C9DA00523FDF /* JYDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYDrawTests.m; sourceTree = "<group>"; };
+		6231BDF91BD5C9DA00523FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6231BDFE1BD5C9DA00523FDF /* JYDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6231BE021BD5C9DA00523FDF /* JYDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYDrawUITests.m; sourceTree = "<group>"; };
+		6231BE041BD5C9DA00523FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6231BE101BD5CA0A00523FDF /* JYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDrawView.h; sourceTree = "<group>"; };
+		6231BE111BD5CA0A00523FDF /* JYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDrawView.m; sourceTree = "<group>"; };
+		6231BE151BD5DAEA00523FDF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		6231BE161BD5DAEA00523FDF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		6231BE171BD5DAEA00523FDF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		6231BE181BD5DAEA00523FDF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		6231BE191BD5DAEA00523FDF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		6231BE1A1BD5DAEA00523FDF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		6231BE1B1BD5DAEA00523FDF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		6231BE1C1BD5DAEA00523FDF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		6231BE1D1BD5DAEA00523FDF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		6231BE1E1BD5DAEA00523FDF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		6231BE1F1BD5DAEA00523FDF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		6231BE201BD5DAEA00523FDF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		6231BE211BD5DAEA00523FDF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		6231BE221BD5DAEA00523FDF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		6231BE231BD5DAEA00523FDF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		6231BE241BD5DAEA00523FDF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6231BE251BD5DAEA00523FDF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		6231BE261BD5DAEA00523FDF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6231BE271BD5DAEA00523FDF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6231BE281BD5DAEA00523FDF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6231BE291BD5DAEA00523FDF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		6231BE2A1BD5DAEA00523FDF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		6231BE2B1BD5DAEA00523FDF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6231BE2C1BD5DAEA00523FDF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		6231BE2D1BD5DAEA00523FDF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		6231BE391BD5DD1F00523FDF /* JYDrawCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDrawCircleViewController.h; sourceTree = "<group>"; };
+		6231BE3A1BD5DD1F00523FDF /* JYDrawCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDrawCircleViewController.m; sourceTree = "<group>"; };
+		6231BE3D1BD5E14800523FDF /* JYPieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPieViewController.h; sourceTree = "<group>"; };
+		6231BE3E1BD5E14800523FDF /* JYPieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPieViewController.m; sourceTree = "<group>"; };
+		6231BE401BD5E15700523FDF /* JYPiewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYPiewView.h; sourceTree = "<group>"; };
+		6231BE411BD5E15700523FDF /* JYPiewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYPiewView.m; sourceTree = "<group>"; };
+		6231BE431BD60B1A00523FDF /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		6231BE441BD60B1A00523FDF /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		6231BE471BD60FE000523FDF /* SnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		6231BE481BD60FE000523FDF /* SnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+		6231BE4A1BD60FF300523FDF /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		6231BE4B1BD60FF300523FDF /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		624F06491BD6238200E232CE /* JYSnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSnowViewController.h; sourceTree = "<group>"; };
+		624F064A1BD6238200E232CE /* JYSnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSnowViewController.m; sourceTree = "<group>"; };
+		624F064C1BD6239400E232CE /* JYSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSnowView.h; sourceTree = "<group>"; };
+		624F064D1BD6239400E232CE /* JYSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSnowView.m; sourceTree = "<group>"; };
+		624F064F1BD62A1100E232CE /* JYSnow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSnow.h; sourceTree = "<group>"; };
+		624F06501BD62A1100E232CE /* JYSnow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSnow.m; sourceTree = "<group>"; };
+		62835EA81BD9B88400C59077 /* JYWaterMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWaterMarkViewController.h; sourceTree = "<group>"; };
+		62835EA91BD9B88400C59077 /* JYWaterMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWaterMarkViewController.m; sourceTree = "<group>"; };
+		62835EAC1BDA022000C59077 /* JYCirclePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCirclePhotoViewController.h; sourceTree = "<group>"; };
+		62835EAD1BDA022000C59077 /* JYCirclePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCirclePhotoViewController.m; sourceTree = "<group>"; };
+		62835EB01BDA07C500C59077 /* JYCirclePathWithBorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYCirclePathWithBorderViewController.h; sourceTree = "<group>"; };
+		62835EB11BDA07C500C59077 /* JYCirclePathWithBorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYCirclePathWithBorderViewController.m; sourceTree = "<group>"; };
+		62835EF31BDA4A0F00C59077 /* JYClipScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYClipScreenViewController.h; sourceTree = "<group>"; };
+		62835EF41BDA4A0F00C59077 /* JYClipScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYClipScreenViewController.m; sourceTree = "<group>"; };
+		62835EF71BDA4E3B00C59077 /* JYSelectClipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYSelectClipViewController.h; sourceTree = "<group>"; };
+		62835EF81BDA4E3B00C59077 /* JYSelectClipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYSelectClipViewController.m; sourceTree = "<group>"; };
+		62835EFB1BDA5DE400C59077 /* JYClearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYClearViewController.h; sourceTree = "<group>"; };
+		62835EFC1BDA5DE400C59077 /* JYClearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYClearViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6231BDD71BD5C9DA00523FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6231BDF01BD5C9DA00523FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6231BDFB1BD5C9DA00523FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6231BDD11BD5C9DA00523FDF = {
+			isa = PBXGroup;
+			children = (
+				6231BDDC1BD5C9DA00523FDF /* JYDraw */,
+				6231BDF61BD5C9DA00523FDF /* JYDrawTests */,
+				6231BE011BD5C9DA00523FDF /* JYDrawUITests */,
+				6231BDDB1BD5C9DA00523FDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6231BDDB1BD5C9DA00523FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6231BDDA1BD5C9DA00523FDF /* JYDraw.app */,
+				6231BDF31BD5C9DA00523FDF /* JYDrawTests.xctest */,
+				6231BDFE1BD5C9DA00523FDF /* JYDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6231BDDC1BD5C9DA00523FDF /* JYDraw */ = {
+			isa = PBXGroup;
+			children = (
+				6231BE131BD5DAEA00523FDF /* Masonry */,
+				6231BDE01BD5C9DA00523FDF /* AppDelegate.h */,
+				6231BDE11BD5C9DA00523FDF /* AppDelegate.m */,
+				6231BDE31BD5C9DA00523FDF /* ViewController.h */,
+				6231BDE41BD5C9DA00523FDF /* ViewController.m */,
+				6231BDE61BD5C9DA00523FDF /* Main.storyboard */,
+				6231BDE91BD5C9DA00523FDF /* Assets.xcassets */,
+				6231BDEB1BD5C9DA00523FDF /* LaunchScreen.storyboard */,
+				6231BDEE1BD5C9DA00523FDF /* Info.plist */,
+				6231BDDD1BD5C9DA00523FDF /* Supporting Files */,
+				6231BE3C1BD5E0EF00523FDF /* 进度圆 */,
+				6231BE461BD60FB600523FDF /* 饼状图 */,
+				624F06481BD6231100E232CE /* 一片雪花 */,
+				624F06521BD63B0200E232CE /* 多片雪花 */,
+				62835EAB1BDA01D000C59077 /* 水印 */,
+				62835EAF1BDA076C00C59077 /* 裁剪圆形图片 */,
+				62835EF21BDA495E00C59077 /* 裁剪带边框的圆形图片 */,
+				62835EF61BDA4A1300C59077 /* 截屏 */,
+				62835EFA1BDA4E4000C59077 /* 选择区域截屏 */,
+				62835EFE1BDA678800C59077 /* 擦除区域 */,
+			);
+			path = JYDraw;
+			sourceTree = "<group>";
+		};
+		6231BDDD1BD5C9DA00523FDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6231BDDE1BD5C9DA00523FDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6231BDF61BD5C9DA00523FDF /* JYDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				6231BDF71BD5C9DA00523FDF /* JYDrawTests.m */,
+				6231BDF91BD5C9DA00523FDF /* Info.plist */,
+			);
+			path = JYDrawTests;
+			sourceTree = "<group>";
+		};
+		6231BE011BD5C9DA00523FDF /* JYDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6231BE021BD5C9DA00523FDF /* JYDrawUITests.m */,
+				6231BE041BD5C9DA00523FDF /* Info.plist */,
+			);
+			path = JYDrawUITests;
+			sourceTree = "<group>";
+		};
+		6231BE131BD5DAEA00523FDF /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				6231BE151BD5DAEA00523FDF /* MASCompositeConstraint.h */,
+				6231BE161BD5DAEA00523FDF /* MASCompositeConstraint.m */,
+				6231BE171BD5DAEA00523FDF /* MASConstraint+Private.h */,
+				6231BE181BD5DAEA00523FDF /* MASConstraint.h */,
+				6231BE191BD5DAEA00523FDF /* MASConstraint.m */,
+				6231BE1A1BD5DAEA00523FDF /* MASConstraintMaker.h */,
+				6231BE1B1BD5DAEA00523FDF /* MASConstraintMaker.m */,
+				6231BE1C1BD5DAEA00523FDF /* MASLayoutConstraint.h */,
+				6231BE1D1BD5DAEA00523FDF /* MASLayoutConstraint.m */,
+				6231BE1E1BD5DAEA00523FDF /* Masonry.h */,
+				6231BE1F1BD5DAEA00523FDF /* MASUtilities.h */,
+				6231BE201BD5DAEA00523FDF /* MASViewAttribute.h */,
+				6231BE211BD5DAEA00523FDF /* MASViewAttribute.m */,
+				6231BE221BD5DAEA00523FDF /* MASViewConstraint.h */,
+				6231BE231BD5DAEA00523FDF /* MASViewConstraint.m */,
+				6231BE241BD5DAEA00523FDF /* NSArray+MASAdditions.h */,
+				6231BE251BD5DAEA00523FDF /* NSArray+MASAdditions.m */,
+				6231BE261BD5DAEA00523FDF /* NSArray+MASShorthandAdditions.h */,
+				6231BE271BD5DAEA00523FDF /* NSLayoutConstraint+MASDebugAdditions.h */,
+				6231BE281BD5DAEA00523FDF /* NSLayoutConstraint+MASDebugAdditions.m */,
+				6231BE291BD5DAEA00523FDF /* View+MASAdditions.h */,
+				6231BE2A1BD5DAEA00523FDF /* View+MASAdditions.m */,
+				6231BE2B1BD5DAEA00523FDF /* View+MASShorthandAdditions.h */,
+				6231BE2C1BD5DAEA00523FDF /* ViewController+MASAdditions.h */,
+				6231BE2D1BD5DAEA00523FDF /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		6231BE3C1BD5E0EF00523FDF /* 进度圆 */ = {
+			isa = PBXGroup;
+			children = (
+				6231BE101BD5CA0A00523FDF /* JYDrawView.h */,
+				6231BE111BD5CA0A00523FDF /* JYDrawView.m */,
+				6231BE391BD5DD1F00523FDF /* JYDrawCircleViewController.h */,
+				6231BE3A1BD5DD1F00523FDF /* JYDrawCircleViewController.m */,
+			);
+			name = "进度圆";
+			sourceTree = "<group>";
+		};
+		6231BE461BD60FB600523FDF /* 饼状图 */ = {
+			isa = PBXGroup;
+			children = (
+				6231BE3D1BD5E14800523FDF /* JYPieViewController.h */,
+				6231BE3E1BD5E14800523FDF /* JYPieViewController.m */,
+				6231BE401BD5E15700523FDF /* JYPiewView.h */,
+				6231BE411BD5E15700523FDF /* JYPiewView.m */,
+				6231BE431BD60B1A00523FDF /* UIColor+RandomColor.h */,
+				6231BE441BD60B1A00523FDF /* UIColor+RandomColor.m */,
+			);
+			name = "饼状图";
+			sourceTree = "<group>";
+		};
+		624F06481BD6231100E232CE /* 一片雪花 */ = {
+			isa = PBXGroup;
+			children = (
+				6231BE471BD60FE000523FDF /* SnowViewController.h */,
+				6231BE481BD60FE000523FDF /* SnowViewController.m */,
+				6231BE4A1BD60FF300523FDF /* SnowView.h */,
+				6231BE4B1BD60FF300523FDF /* SnowView.m */,
+			);
+			name = "一片雪花";
+			sourceTree = "<group>";
+		};
+		624F06521BD63B0200E232CE /* 多片雪花 */ = {
+			isa = PBXGroup;
+			children = (
+				624F06491BD6238200E232CE /* JYSnowViewController.h */,
+				624F064A1BD6238200E232CE /* JYSnowViewController.m */,
+				624F064C1BD6239400E232CE /* JYSnowView.h */,
+				624F064D1BD6239400E232CE /* JYSnowView.m */,
+				624F064F1BD62A1100E232CE /* JYSnow.h */,
+				624F06501BD62A1100E232CE /* JYSnow.m */,
+			);
+			name = "多片雪花";
+			sourceTree = "<group>";
+		};
+		62835EAB1BDA01D000C59077 /* 水印 */ = {
+			isa = PBXGroup;
+			children = (
+				62835EA81BD9B88400C59077 /* JYWaterMarkViewController.h */,
+				62835EA91BD9B88400C59077 /* JYWaterMarkViewController.m */,
+			);
+			name = "水印";
+			sourceTree = "<group>";
+		};
+		62835EAF1BDA076C00C59077 /* 裁剪圆形图片 */ = {
+			isa = PBXGroup;
+			children = (
+				62835EAC1BDA022000C59077 /* JYCirclePhotoViewController.h */,
+				62835EAD1BDA022000C59077 /* JYCirclePhotoViewController.m */,
+			);
+			name = "裁剪圆形图片";
+			sourceTree = "<group>";
+		};
+		62835EF21BDA495E00C59077 /* 裁剪带边框的圆形图片 */ = {
+			isa = PBXGroup;
+			children = (
+				62835EB01BDA07C500C59077 /* JYCirclePathWithBorderViewController.h */,
+				62835EB11BDA07C500C59077 /* JYCirclePathWithBorderViewController.m */,
+			);
+			name = "裁剪带边框的圆形图片";
+			sourceTree = "<group>";
+		};
+		62835EF61BDA4A1300C59077 /* 截屏 */ = {
+			isa = PBXGroup;
+			children = (
+				62835EF31BDA4A0F00C59077 /* JYClipScreenViewController.h */,
+				62835EF41BDA4A0F00C59077 /* JYClipScreenViewController.m */,
+			);
+			name = "截屏";
+			sourceTree = "<group>";
+		};
+		62835EFA1BDA4E4000C59077 /* 选择区域截屏 */ = {
+			isa = PBXGroup;
+			children = (
+				62835EF71BDA4E3B00C59077 /* JYSelectClipViewController.h */,
+				62835EF81BDA4E3B00C59077 /* JYSelectClipViewController.m */,
+			);
+			name = "选择区域截屏";
+			sourceTree = "<group>";
+		};
+		62835EFE1BDA678800C59077 /* 擦除区域 */ = {
+			isa = PBXGroup;
+			children = (
+				62835EFB1BDA5DE400C59077 /* JYClearViewController.h */,
+				62835EFC1BDA5DE400C59077 /* JYClearViewController.m */,
+			);
+			name = "擦除区域";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6231BDD91BD5C9DA00523FDF /* JYDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6231BE071BD5C9DA00523FDF /* Build configuration list for PBXNativeTarget "JYDraw" */;
+			buildPhases = (
+				6231BDD61BD5C9DA00523FDF /* Sources */,
+				6231BDD71BD5C9DA00523FDF /* Frameworks */,
+				6231BDD81BD5C9DA00523FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYDraw;
+			productName = JYDraw;
+			productReference = 6231BDDA1BD5C9DA00523FDF /* JYDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6231BDF21BD5C9DA00523FDF /* JYDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6231BE0A1BD5C9DA00523FDF /* Build configuration list for PBXNativeTarget "JYDrawTests" */;
+			buildPhases = (
+				6231BDEF1BD5C9DA00523FDF /* Sources */,
+				6231BDF01BD5C9DA00523FDF /* Frameworks */,
+				6231BDF11BD5C9DA00523FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6231BDF51BD5C9DA00523FDF /* PBXTargetDependency */,
+			);
+			name = JYDrawTests;
+			productName = JYDrawTests;
+			productReference = 6231BDF31BD5C9DA00523FDF /* JYDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6231BDFD1BD5C9DA00523FDF /* JYDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6231BE0D1BD5C9DA00523FDF /* Build configuration list for PBXNativeTarget "JYDrawUITests" */;
+			buildPhases = (
+				6231BDFA1BD5C9DA00523FDF /* Sources */,
+				6231BDFB1BD5C9DA00523FDF /* Frameworks */,
+				6231BDFC1BD5C9DA00523FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6231BE001BD5C9DA00523FDF /* PBXTargetDependency */,
+			);
+			name = JYDrawUITests;
+			productName = JYDrawUITests;
+			productReference = 6231BDFE1BD5C9DA00523FDF /* JYDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6231BDD21BD5C9DA00523FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					6231BDD91BD5C9DA00523FDF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6231BDF21BD5C9DA00523FDF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6231BDD91BD5C9DA00523FDF;
+					};
+					6231BDFD1BD5C9DA00523FDF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6231BDD91BD5C9DA00523FDF;
+					};
+				};
+			};
+			buildConfigurationList = 6231BDD51BD5C9DA00523FDF /* Build configuration list for PBXProject "JYDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6231BDD11BD5C9DA00523FDF;
+			productRefGroup = 6231BDDB1BD5C9DA00523FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6231BDD91BD5C9DA00523FDF /* JYDraw */,
+				6231BDF21BD5C9DA00523FDF /* JYDrawTests */,
+				6231BDFD1BD5C9DA00523FDF /* JYDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6231BDD81BD5C9DA00523FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6231BDED1BD5C9DA00523FDF /* LaunchScreen.storyboard in Resources */,
+				6231BDEA1BD5C9DA00523FDF /* Assets.xcassets in Resources */,
+				6231BDE81BD5C9DA00523FDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6231BDF11BD5C9DA00523FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6231BDFC1BD5C9DA00523FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6231BDD61BD5C9DA00523FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6231BE3F1BD5E14800523FDF /* JYPieViewController.m in Sources */,
+				62835EF91BDA4E3B00C59077 /* JYSelectClipViewController.m in Sources */,
+				6231BE311BD5DAEA00523FDF /* MASConstraintMaker.m in Sources */,
+				624F064E1BD6239400E232CE /* JYSnowView.m in Sources */,
+				6231BDE51BD5C9DA00523FDF /* ViewController.m in Sources */,
+				62835EB21BDA07C500C59077 /* JYCirclePathWithBorderViewController.m in Sources */,
+				6231BDE21BD5C9DA00523FDF /* AppDelegate.m in Sources */,
+				6231BE301BD5DAEA00523FDF /* MASConstraint.m in Sources */,
+				6231BE381BD5DAEA00523FDF /* ViewController+MASAdditions.m in Sources */,
+				6231BE451BD60B1A00523FDF /* UIColor+RandomColor.m in Sources */,
+				6231BE321BD5DAEA00523FDF /* MASLayoutConstraint.m in Sources */,
+				6231BE491BD60FE000523FDF /* SnowViewController.m in Sources */,
+				624F06511BD62A1100E232CE /* JYSnow.m in Sources */,
+				62835EAE1BDA022000C59077 /* JYCirclePhotoViewController.m in Sources */,
+				6231BE421BD5E15700523FDF /* JYPiewView.m in Sources */,
+				6231BE351BD5DAEA00523FDF /* NSArray+MASAdditions.m in Sources */,
+				6231BE341BD5DAEA00523FDF /* MASViewConstraint.m in Sources */,
+				6231BE331BD5DAEA00523FDF /* MASViewAttribute.m in Sources */,
+				6231BE3B1BD5DD1F00523FDF /* JYDrawCircleViewController.m in Sources */,
+				62835EF51BDA4A0F00C59077 /* JYClipScreenViewController.m in Sources */,
+				624F064B1BD6238200E232CE /* JYSnowViewController.m in Sources */,
+				6231BE371BD5DAEA00523FDF /* View+MASAdditions.m in Sources */,
+				6231BE4C1BD60FF300523FDF /* SnowView.m in Sources */,
+				6231BDDF1BD5C9DA00523FDF /* main.m in Sources */,
+				62835EFD1BDA5DE400C59077 /* JYClearViewController.m in Sources */,
+				6231BE121BD5CA0A00523FDF /* JYDrawView.m in Sources */,
+				6231BE2F1BD5DAEA00523FDF /* MASCompositeConstraint.m in Sources */,
+				62835EAA1BD9B88400C59077 /* JYWaterMarkViewController.m in Sources */,
+				6231BE361BD5DAEA00523FDF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6231BDEF1BD5C9DA00523FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6231BDF81BD5C9DA00523FDF /* JYDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6231BDFA1BD5C9DA00523FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6231BE031BD5C9DA00523FDF /* JYDrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6231BDF51BD5C9DA00523FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6231BDD91BD5C9DA00523FDF /* JYDraw */;
+			targetProxy = 6231BDF41BD5C9DA00523FDF /* PBXContainerItemProxy */;
+		};
+		6231BE001BD5C9DA00523FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6231BDD91BD5C9DA00523FDF /* JYDraw */;
+			targetProxy = 6231BDFF1BD5C9DA00523FDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6231BDE61BD5C9DA00523FDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6231BDE71BD5C9DA00523FDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6231BDEB1BD5C9DA00523FDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6231BDEC1BD5C9DA00523FDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6231BE051BD5C9DA00523FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6231BE061BD5C9DA00523FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6231BE081BD5C9DA00523FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6231BE091BD5C9DA00523FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6231BE0B1BD5C9DA00523FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYDraw.app/JYDraw";
+			};
+			name = Debug;
+		};
+		6231BE0C1BD5C9DA00523FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYDraw.app/JYDraw";
+			};
+			name = Release;
+		};
+		6231BE0E1BD5C9DA00523FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6231BE0F1BD5C9DA00523FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6231BDD51BD5C9DA00523FDF /* Build configuration list for PBXProject "JYDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6231BE051BD5C9DA00523FDF /* Debug */,
+				6231BE061BD5C9DA00523FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6231BE071BD5C9DA00523FDF /* Build configuration list for PBXNativeTarget "JYDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6231BE081BD5C9DA00523FDF /* Debug */,
+				6231BE091BD5C9DA00523FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6231BE0A1BD5C9DA00523FDF /* Build configuration list for PBXNativeTarget "JYDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6231BE0B1BD5C9DA00523FDF /* Debug */,
+				6231BE0C1BD5C9DA00523FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6231BE0D1BD5C9DA00523FDF /* Build configuration list for PBXNativeTarget "JYDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6231BE0E1BD5C9DA00523FDF /* Debug */,
+				6231BE0F1BD5C9DA00523FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6231BDD21BD5C9DA00523FDF /* Project object */;
+}
