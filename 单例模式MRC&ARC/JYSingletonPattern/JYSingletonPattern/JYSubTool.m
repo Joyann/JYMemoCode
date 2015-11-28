@@ -10,4 +10,6 @@
 
 @implementation JYSubTool
 
+JYSingletonM(SubTool)
+
 @end

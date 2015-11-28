@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface JYTool : NSObject
+@interface JYTool : NSObject <NSCopying>
+
++ (instancetype)shareTool;
 
 @end

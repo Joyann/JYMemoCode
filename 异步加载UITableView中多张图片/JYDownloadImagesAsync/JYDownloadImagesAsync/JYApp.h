@@ -10,4 +10,10 @@
 
 @interface JYApp : NSObject
 
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *icon;
+@property (nonatomic, copy) NSString *download;
+
++ (instancetype)appWithDict: (NSDictionary *)dict;
+
 @end

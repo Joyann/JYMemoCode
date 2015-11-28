@@ -74,8 +74,8 @@ static const NSInteger JYNumberOfSnow = 20;
 
 - (void)drawRect:(CGRect)rect
 {
+    UIImage *snowImage = [UIImage imageNamed:@"雪花"];
     [_snows enumerateObjectsUsingBlock:^(JYSnow *snow, NSUInteger index, BOOL * _Nonnull stop) {
-        UIImage *snowImage = [UIImage imageNamed:@"雪花"];
         [snowImage drawAtPoint:snow.location];
     }];
 }

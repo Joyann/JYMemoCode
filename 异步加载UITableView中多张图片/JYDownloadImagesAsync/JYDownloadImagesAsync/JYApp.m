@@ -10,4 +10,13 @@
 
 @implementation JYApp
 
++ (instancetype)appWithDict:(NSDictionary *)dict
+{
+    JYApp *app = [[JYApp alloc] init];
+    
+    [app setValuesForKeysWithDictionary:dict];
+    
+    return app;
+}
+
 @end

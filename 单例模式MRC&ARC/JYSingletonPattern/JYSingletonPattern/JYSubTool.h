@@ -7,7 +7,10 @@
 //
 
 #import "JYTool.h"
+#import "JYSingleton.h"
 
-@interface JYSubTool : JYTool
+@interface JYSubTool : NSObject
+
+JYSingletonH(SubTool)
 
 @end

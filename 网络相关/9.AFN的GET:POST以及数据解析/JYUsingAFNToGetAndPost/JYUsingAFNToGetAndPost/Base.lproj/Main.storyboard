@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcx-9y-PoB">
+                                <rect key="frame" x="6" y="145" width="365" height="30"/>
+                                <state key="normal" title="利用AFHTTPRequestOperationManager的GET(JSON)"/>
+                                <connections>
+                                    <action selector="requestOperationGET:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RAV-nG-1Vm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVD-oo-hM8">
+                                <rect key="frame" x="0.0" y="189" width="376" height="30"/>
+                                <state key="normal" title="利用AFHTTPRequestOperationManager的POST(JSON)"/>
+                                <connections>
+                                    <action selector="requestOperationPOST:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xxo-cx-efb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAC-VK-adI">
+                                <rect key="frame" x="41" y="265" width="295" height="30"/>
+                                <state key="normal" title="利用AFURLSessionManager的POST(JSON)"/>
+                                <connections>
+                                    <action selector="sessionPOST:" destination="BYZ-38-t0r" eventType="touchUpInside" id="di9-xk-mdW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfI-Ux-HNS">
+                                <rect key="frame" x="46" y="227" width="285" height="30"/>
+                                <state key="normal" title="利用AFURLSessionManager的GET(JSON)"/>
+                                <connections>
+                                    <action selector="sessionGET:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9mq-ca-FXG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hp9-k8-hvi">
+                                <rect key="frame" x="58" y="358" width="261" height="30"/>
+                                <state key="normal" title="利用AFURLSessionManagerGET(XML)"/>
+                                <connections>
+                                    <action selector="sessionGETWithXML:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HjW-sx-zjJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgs-bS-hIT">
+                                <rect key="frame" x="53" y="396" width="272" height="30"/>
+                                <state key="normal" title="利用AFURLSessionManagerPOST(XML)"/>
+                                <connections>
+                                    <action selector="sessionPOSTWithXML:" destination="BYZ-38-t0r" eventType="touchUpInside" id="41r-KP-8xK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gt-jH-c9A">
+                                <rect key="frame" x="48" y="455" width="282" height="30"/>
+                                <state key="normal" title="利用AFURLSessionManagerGET(NSData)"/>
+                                <connections>
+                                    <action selector="sessionGETWithData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="add-ae-Ujv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVs-XV-bDB">
+                                <rect key="frame" x="41" y="493" width="293" height="30"/>
+                                <state key="normal" title="利用AFURLSessionManagerPOST(NSData)"/>
+                                <connections>
+                                    <action selector="sessionPOSTWithData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IhV-J1-VNv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
